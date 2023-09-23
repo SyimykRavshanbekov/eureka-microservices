@@ -56,7 +56,7 @@ services:
       - zipkin
 
   apigw:
-    image: syimyk06/apigw:latest
+    image: syimyk06        /apigw:latest
     container_name: apigw
     ports:
       - "8083:8083"
